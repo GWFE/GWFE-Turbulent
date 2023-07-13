@@ -1,8 +1,16 @@
 :root {
-  --main-background: rgb(241, 241, 241);
-  --main-color: rgb(34, 34, 34);
+  --main-color: #5bf056;
   
-  --main-background-dark: rgb(0, 0, 0);
-  --main-color-dark: rgb(255, 255, 255);
+  --background-color: #ffffff;
+  --font-color: #2c2c2c;
+  --font-color-little: #4d4d4d;
+
+
+
+
+
+  --background-color-dark: #242424;
+  --font-color-dark: #ffffff;
+  --font-color-little-dark: #c2c2c2;
   }
   

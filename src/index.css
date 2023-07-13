@@ -2,13 +2,16 @@
 body {
   margin: 0;
   font-family: 'SUIT Variable';
-  font-weight: 1000;
 }
 
 
 
-  @font-face {
-    font-family: 'SUIT Variable';
-    font-weight: 100 900;
-    src: local('SUIT Variable Regular'), url('./font/SUIT-Variable.woff2') format('woff2-variations');
-  }
+@font-face {
+  font-family: 'SUIT Variable';
+  font-weight: 100 900;
+  src: local('SUIT Variable Regular'), url('./font/SUIT-Variable.woff2') format('woff2-variations');
+}
+@font-face {
+  font-family: 'Washington Bold';
+  src: local('WashingtonBoldDynamic'), url('./font/WashingtonBoldDynamic.otf') format('otf');
+}
