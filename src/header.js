@@ -4,12 +4,12 @@ import {Route, Routes, Link} from "react-router-dom";
 
 function Header() {
     return (
-      <div className={styles.Header}>
-        <div className={styles.Header_container}>
+      <div className={styles.header}>
+        <div className={styles.header_container}>
             <Link to="/">
-                <div className={styles.Haeder_logo}>TYPHOON</div>
+                <div className={styles.haeder_logo}>TYPHOON</div>
             </Link>
-            <nav className={styles.Header_nav}>
+            <nav className={styles.header_nav}>
                 <Link to="/detail">detail</Link>
                 <Link to="/player">player</Link>
                 <Link to="/weapon">weapon</Link>

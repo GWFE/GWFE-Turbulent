@@ -1,1 +1,6 @@
-@import url("colors.css");
+@import url('css/colors.css');
+
+.header {
+    display: flex;
+    align-items: center;
+}
