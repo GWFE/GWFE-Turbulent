@@ -2,15 +2,18 @@
   --main-color: #5bf056;
   
   --background-color: #ffffff;
-  --font-color: #2c2c2c;
-  --font-color-little: #4d4d4d;
+
+
+  --text-color: #2c2c2c;
+  --text-color-little: #4d4d4d;
 
 
 
 
 
   --background-color-dark: #242424;
-  --font-color-dark: #ffffff;
-  --font-color-little-dark: #c2c2c2;
+  --background-color-dark-hover: #2e2e2e;
+  --text-color-dark: #ffffff;
+  --text-color-little-dark: #c2c2c2;
   }
   

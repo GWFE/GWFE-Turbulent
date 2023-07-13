@@ -1,10 +1,19 @@
+import { motion } from "framer-motion";
+
 function Main() {
-    return (
-      <div className="Main">
-        Main
+  return (
+    <motion.div
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    exit={{ opacity: 0 }}>
+
+      <div className="main">
+        
+
+
       </div>
-    );
-  }
-  
-  export default Main;
-  
+      
+    </motion.div>
+  );
+};
+export default Main;
