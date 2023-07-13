@@ -1,0 +1,9 @@
+@import url('./colors.css');
+@import url('./fonts.css');
+
+
+.header_padder {
+    width: 100%;
+    height: 60px;
+    position: relative;
+}

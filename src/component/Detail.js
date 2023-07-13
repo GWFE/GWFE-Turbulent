@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import styles from "../css/Detail.module.css";
 
 function Detail() {
   return (
@@ -8,6 +9,9 @@ function Detail() {
     exit={{ opacity: 0 }}>
 
       <div className="detail">
+        <div className={styles.header_padder}></div>
+
+        
 
 
       </div>

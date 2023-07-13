@@ -15,6 +15,7 @@ function Header() {
                 <Link to="/weapon" className={styles.header_nav_link}>weapon</Link>
             </nav>
         </div>
+      
       </div>
     );
 };export default Header;

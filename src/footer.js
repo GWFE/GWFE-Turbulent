@@ -13,7 +13,6 @@ function Footer() {
             target='_blank'>
               TYPHOON
             </a>
-
         </div>
         <div className={styles.footer_license}>
         Copyright 2023. team TYPHOON All rights reserved.
