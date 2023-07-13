@@ -1,5 +1,23 @@
-@import url("index.css");
+@import url("colors.css");
 
-.App {
-  background-color: var(--main-color);
+.asdf {
+    background-color: var(--main-background);
+    color : var(--main-color);
+    font-size: 50px;
+    }   
+
+@media (prefers-color-scheme: light) {
+    .asdf {
+    background-color: var(--main-background);
+    color : var(--main-color);
+    font-size: 50px;
+    }   
+}
+
+@media (prefers-color-scheme: dark) {
+    .asdf {
+    background-color: var(--main-background-dark);
+    color : var(--main-color-dark);
+    font-size: 50px;
+    }   
 }

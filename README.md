@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# GWFE-Turbulent
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Team - TYPHOON
 
-## Available Scripts
+**김경훈** : 클라이언트 배포 웹 사이트 제작 <br>
+**최강민** : 클라이언트 UI 디자인 및 Q/A <br>
+**홍세현** : 기획, 클라이언트 / 서버개발, DB관리
 
-In the project directory, you can run:
+---
 
-### `npm start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# GAME
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 주요기능
 
-### `npm test`
+- 회원가입·로그인을 통한 플레이어 데이터 저장
+- 방 생성·참가
+- 인 게임 플레이어 이동·전투 동기화
+- 플레이어 채팅 시스템
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 개발 방법 및 절차
 
-### `npm run build`
+- **Unity** 엔진과 **C#** 을 이용해 게임 클라이언트 제작
+- **C#**,**NET Framework**를 사용해 게임 서버 제작
+- **Entity Framework Core**를 사용해 DB 관리
+- **React**를 사용해 클라이언트 배포 웹 페이지 제작
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## FRONT
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 클라이언트 배포를 기본으로 둔 웹페이지
+- 무기 / 캐릭터 등의 자료를 정리
+- 게임 룰과 미리보기(동영상, 사진 등) 구현
