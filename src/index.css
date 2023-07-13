@@ -16,6 +16,7 @@ a {
 }
 
 
+
 :root {
   --main-color: #5bf056;
 
@@ -38,3 +39,6 @@ a {
   --view-transition: 0.5s ease;
   }
   
+  button {
+    border: 0;
+  }
