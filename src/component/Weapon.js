@@ -1,10 +1,18 @@
+import { motion } from "framer-motion";
+
 function Weapon() {
-    return (
+  return (
+    <motion.div
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    exit={{ opacity: 0 }}>
+
       <div className="weapon">
-        weapon
+
+
       </div>
-    );
-  };
-  
-  export default Weapon;
-  
+      
+    </motion.div>
+  );
+};
+export default Weapon;

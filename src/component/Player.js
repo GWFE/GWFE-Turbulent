@@ -1,10 +1,18 @@
+import { motion } from "framer-motion";
+
 function Player() {
-    return (
+  return (
+    <motion.div
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    exit={{ opacity: 0 }}>
+
       <div className="player">
-        player
+
+
       </div>
-    );
-  }
-  
-  export default Player;
-  
+      
+    </motion.div>
+  );
+};
+export default Player;

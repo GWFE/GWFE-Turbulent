@@ -4,20 +4,21 @@ body {
   font-family: 'SUIT Variable';
 }
 
-
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 @font-face {
   font-family: 'SUIT Variable';
   font-weight: 100 900;
   src: local('SUIT Variable Regular'), url('./font/SUIT-Variable.woff2') format('woff2-variations');
 }
-@font-face {
-  font-family: 'Washington Bold';
-  src: local('WashingtonBoldDynamic'), url('./font/WashingtonBoldDynamic.otf') format('otf');
-}
+
 
 :root {
   --main-color: #5bf056;
+
   
   --background-color: #ffffff;
   --font-color: #2c2c2c;
@@ -30,5 +31,10 @@ body {
   --background-color-dark: #242424;
   --font-color-dark: #ffffff;
   --font-color-little-dark: #c2c2c2;
+
+
+
+  --object-transition: 0.25s ease;
+  --view-transition: 0.5s ease;
   }
   
