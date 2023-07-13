@@ -1,11 +1,10 @@
-import './App.css';
-import {Route, Routes, Link} from "react-router-dom";
-import Header from './Header';
-import Main from './component/Main';
-import Detail from './component/Detail';
-import Player from './component/Player';
-import Weapon from './component/Weapon';
-
+import "./App.css";
+import { Route, Routes, Link } from "react-router-dom";
+import Header from "./header";
+import Main from "./component/Main";
+import Detail from "./component/Detail";
+import Player from "./component/Player";
+import Weapon from "./component/Weapon";
 
 function App() {
   return (
